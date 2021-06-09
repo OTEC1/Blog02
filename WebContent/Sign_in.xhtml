@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Dealit Sign in Page</title>
+        
+        
+  
+         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      
+        <style>
+        *{
+         
+            margin: 0px;
+            padding: 0px;
+            background-color: #E4E4E4;
+        
+        }
+        
+        
+        .base{
+            width: 45%;
+            height: 480px;
+            background-color: #fff;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        
+        
+        .sub-c{
+            width: 90%;
+            height: 10px;
+            background-color: #fff;
+        }
+        
+          .eub-c{
+            width: 20%;
+            float: left;
+            height: 10px;
+            background-color: #fff;
+        }
+        
+        .cc{
+            float: left;
+            margin-left: 1px;
+            background-color: #fff;
+        }
+        
+           .ec{
+            float: left;
+            margin-left: 35px;
+            background-color: #fff;
+        }
+        
+        hr{
+            width: 90%;
+        }
+        
+        
+        .sign_in_area{
+            width:90%;
+            height: 370px;
+            background-color: #E4E4E4;
+            border: 1px solid#999999;
+        }
+        
+         .sign_in_area1{
+            width:90%;
+            height: 210px;
+            background-color: #E4E4E4;
+            border: 1px solid#999999;
+        }
+        
+        
+        .let_hint{
+            float: left;
+            width: 20%; 
+
+        }
+        
+      
+        
+        .mid{
+            float: left;
+            margin-left: 10px;
+            width:20%;
+            height: 180px;
+        
+        }
+        
+         .t1{
+             float: left;
+            margin-left: 20px;
+        }
+        
+        
+         .t2{
+            float: left;
+            margin-left: 20px;
+          
+        }
+        
+          .t1a{
+            float: left;
+            margin-left: 20px;
+        }
+        
+        
+        .t2a{
+            float: left;
+            margin-left: 20px;
+        }
+        
+        
+         .t2c{
+            float: left;
+            margin-left: 20px;
+        }
+        
+        
+        img{
+            margin: 18px;
+        }
+        
+       
+        
+        
+        
+        .sins{
+            float: right;
+            width: 50%;
+              height: 200px;   
+        }
+        
+        
+        .inputs{
+            border:none;
+            background-color: #fff;
+            border-radius: 5px;
+            width: 70%;
+            height: 30px;
+            margin: 15px;
+            padding: 5px;
+        }
+        
+        
+        .Sign_in{
+           background-color: #11FF41;
+            border-radius: 5px;
+            width: 90%;
+            height: 30px;
+            margin-top: 5px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        
+  
+        
+ 	    .regis{
+	    	width: 200px;
+			box-sizing: border-box;
+			padding: 10px 0;
+			outline: none;
+			border: none;
+			cursor:pointer;
+			background: #60adde;
+			opacity: 0.7;
+			border-radius: 20px;
+			font-size: 20px;
+			color: #ffffff;
+		}
+				
+		.regis:hover{
+		background: #D03366;
+		opacity: 0.7;
+		}
+      
+      
+        .btn{
+            width: 90%;
+            height: 10px;
+            margin-top: 40px;
+            color: #3366ff;
+            text-decoration:none;
+            
+        }
+        
+        
+        
+           .btn1{
+           float:right;
+            width: 50%;
+            height: 10px;
+            margin-top: 20px;
+            color: #3366ff;
+            text-decoration:none;
+            
+        }
+
+        
+        .ns{
+        	width: 70%;
+        	height: 50px;
+        	padding:5px;
+        	background-color: #E4E4E4;
+        	border:none;
+        	border-radius: 10px;
+        }
+        
+  
+        
+        
+        .request_pin{
+        	color:#fff;
+        	border:none;
+        	height:40px;
+        	width:80px;
+        	border-radius:10px;
+          background-color:blue;
+        }
+        
+        
+        i{	
+          fomt-size: 100px;
+        }
+        
+        
+        @media(max-width:980px){
+            .base{
+                width:90%;
+            }
+            
+          .sins{
+            float: left;
+            width: 100%;  
+        }
+        
+        
+        .inputs{
+            width: 90%;
+            height: 30px;
+            font-size: 1.5em;
+            margin-left: 7px;
+        }
+        
+          .mid{
+          display: none;
+        }
+        
+            .t1{
+                font-size: 1em;
+            }
+            
+           
+        
+            .t2{
+             font-size: 1em;
+            float: left;
+            margin-left: 20px;
+        }
+        
+        
+          .let_hint{
+            display: none;
+        }
+        
+           
+           .btn1{
+           float:right;
+            width: 100%;
+            height: 10px;
+          
+            
+        }
+        
+        .Sign_in{
+        
+        margin-top: 50px;
+        	}
+        
+        }
+        
+        
+    </style>
+        
+        
+     
+    </h:head>
+    <h:body >
+    
+
+    
+     
+    
+    	
+        
+        <h:form>
+       
+         <p:growl  showDetail="true"/>
+        <center>
+                <div    class="base">
+                    
+                    
+                    <div   class="sub-c">
+                        <br/>
+                        <p:outputLabel class="cc"  value="Please Sign in"/>
+                      
+                    </div>
+                        
+                     <br/> <br/>
+                     <hr/>
+                     
+                     
+                     
+                     
+                     <br/>
+                     <div   class="sign_in_area">
+                         
+               
+                     
+                     <div  class="let_hint">
+                          <br/>  
+                         <p:outputLabel  class="t1"   value="C Pass"/>
+                        
+                         <br/> <br/> <br/> <br/> 
+                           <p:outputLabel  class="t2"  value="Email"/>
+                           <br/> <br/> <br/> <br/> 
+                           <p:outputLabel  class="t2"  value="S Pass"/>
+                         
+                     </div>
+                         
+                         
+                         
+                         
+                     <div   class="sins"   >
+                 
+                          <h:inputSecret   class="inputs"    value="#{admin_user.create_p}"    autocomplete="off">
+                             <f:passThroughAttribute name="placeholder"  value="Create Password" />
+                         </h:inputSecret>
+                         
+                         
+                         
+                         <h:inputText   class="inputs"    value="#{admin_user.user}"    autocomplete="off">
+                             <f:passThroughAttribute name="placeholder"  value="Email" />
+                         </h:inputText>
+                         
+                         
+                         <br/>
+                         <h:inputSecret   class="inputs"   value="#{admin_user.pass}"  autocomplete="off">   
+                               <f:passThroughAttribute name="placeholder"  value="Sign Password" />
+                       </h:inputSecret>         
+                         <br/>
+                     </div>
+                         
+                         
+                      <br/>
+                          		   <h:commandButton   id="aq"  class="Sign_in"  action="#{admin_user.authenticate_admin}"  value="Sign in "/>
+								
+								
+                        
+                         
+                         
+                  </div>       
+                </div> 
+                     
+            </center>
+        
+   </h:form>
+                
+        
+        
+
+
+
+        
+    </h:body>
+</html>
+
+
+
