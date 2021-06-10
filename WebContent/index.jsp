@@ -35,8 +35,7 @@ pageEncoding="ISO-8859-1"%>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 		   
-		   
-		  
+	  
 </head>
 <body>
 

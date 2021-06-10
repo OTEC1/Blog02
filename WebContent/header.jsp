@@ -202,7 +202,7 @@ margin-top: 8px;
 					
 .inputs{
 border:none;
-width:130px;
+width:100px;
 padding: 6px;
 border-radius: 4px;
 margin-right: 5px;

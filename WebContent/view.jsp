@@ -223,7 +223,7 @@ overflow-x: hidden;
 
 .contents{
 height: auto;
-width: 160px;
+width: 130px;
 }
 
 .left_wing{
@@ -277,6 +277,9 @@ width: 100%;
 margin-right: 10px;
 }
 
+.related_banner{
+margin-left: 5px;
+}
 
 }
 </style>

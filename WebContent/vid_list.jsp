@@ -258,25 +258,24 @@ color: #323247;
   
 .footer{
  width: 100%;
- height: 30px; 
- background: #000; 
+ height: 30px;  
  margin-top: 0px;
  float: right;
+ background: #0E0A23;
 }
 
 .foot{
 float: right;
 margin-top:10px;
 margin-right: 10px; 
-background: #000;
+background: #0E0A23;
 
 }
 	
 .sw{
-
 font-size: 15px;
 color: #fff;
-background: #000;
+background: #0E0A23;
 }
 
 h4{
@@ -715,7 +714,7 @@ finally{
 <div class="foot">
 <a   href="about.jsp"  id="a1"   class="sw">About us</a>
 <a   href="about.jsp"   id="a1" class="sw">Contact us</a>
-<a    href="about.jsp" id="a1"  class="sw">Advertise with us</a>
+<a    href="about.jsp" id="a1"  class="sw">Advertise</a>
 </div>
 </div>
 </div>   

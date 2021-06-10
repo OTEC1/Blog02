@@ -105,29 +105,7 @@ border-radius: 200px;
 	
 	
 
-
-
-	
-#a1{
-
-color: #fff;
-margin-left: 20px;
-background: #000;
-margin-right: 20px;
-}
-    
-    
-
-
-.top_logo{
-width: 200px;
-height: 100px;
-background: none;
-}
-	
-	
-	
-		        			
+	        			
 span{
 font-family: sans-serif;
 font-weight: 600;
@@ -449,8 +427,7 @@ finally{
 	{e.printStackTrace();
 }} 
 %>
-		      
- </div>  
+</div>  
 <jsp:include page="footer.jsp"></jsp:include>	 
 </body>
 

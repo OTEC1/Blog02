@@ -290,6 +290,17 @@ margin-bottom: 10px;
 
 #a1{
 font-size: 18px;
+background: #0E0A23;
+}
+
+ .sw{
+font-size: 18px;
+background: #0E0A23;
+}
+
+.foot{
+margin-right: 20px; 
+
 }
 	
 .footer{
@@ -299,14 +310,9 @@ font-size: 18px;
 }
 
 	
-.foot{
-margin-right: 20px; 
 
-}
 
- .sw{
-font-size: 18px;
-}
+
 
 .mt-2{
 margin-left: -5px;	

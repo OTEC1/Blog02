@@ -42,7 +42,7 @@ margin-left: auto;
 margin-right: auto;
 background: #fff;
 margin-top: -80px;
-overflow: hidden;
+overflow-x: hidden;
 }
  
  
@@ -131,11 +131,7 @@ text-decoration: none;
 background: #000;
 margin: 20px;
 }
-					
-a:hover{
-text-decoration: none;
-}
-          
+         
 .nav:hover{
 text-decoration: none;
 }
@@ -331,11 +327,6 @@ overflow-x:hidden;
 background: #fff; 
 }		
 
-a:hover {
-ext-decoration:none;
-background: #fff;
-}
-							
 				
 					
 @media (max-width:1300px) {
@@ -558,7 +549,7 @@ height:1220px;
 background: #EFF1E4;
 margin-left: auto;
 margin-right: auto;
-overflow-x: hidden;
+
 }
 		 		
 		 		

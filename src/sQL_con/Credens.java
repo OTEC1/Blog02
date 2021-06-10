@@ -28,7 +28,7 @@ public interface Credens {
 		      	     ACCESS_SEC_KEY="B6ypFp+oYKzlWlXl9CE/1xD3siRR9FNibKJ8+CIN",  
 	 	             bucket="bloggingbucket", 
 	 	             driverName="org.mariadb.jdbc.Driver";
-		    
+		 
 				
 
 	 
