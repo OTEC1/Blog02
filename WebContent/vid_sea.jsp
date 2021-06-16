@@ -187,7 +187,6 @@ Dealit Trending Video's Search
 					text-decoration:none;
 					color: #10059E;
 					font-size: 1em;
-					margin: 20px;
 					background: #fff;
 					top: 10px;
 					}
@@ -364,7 +363,6 @@ Dealit Trending Video's Search
 						text-decoration:none;
 						color: #10059E;
 						font-size: 1em;
-						margin:10px;
 						background: #fff;
 						display: inline-block;
 					
@@ -406,7 +404,7 @@ Dealit Trending Video's Search
 	         .vems{
             	box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.3);  
 		        height: 150px; 
-		        width: 350px;
+		        width: 97%;
 		        background: #fff;
 		        margin: 10px;
 		        font-family: sans-serif;
@@ -495,17 +493,15 @@ statement=connection.prepareStatement("select   *   from  Vid_path  where title 
 rs = statement.executeQuery();
 while(rs.next()){
 %>
-			                  	
+<div class="bts">		
+<div   class="vems">	                  	
 <a href="video.jsp?eid=<%=rs.getString(1) %>&efilename=<%=rs.getString(2)%>&ecat=<%=rs.getString(6)%>&etopic=<%=rs.getString(3)%>"    class="nod" >
-<div class="bts">
-<div   class="vems">
 <img   src="<%= url.concat((rs.getString(2)))%>"    class="imgs"        alt="<%=rs.getString(3)%>"/>
-<div  class="bts1"  >Title: <%=rs.getString(3)%></div>
+<div  class="bts1">Title: <%=rs.getString(3)%></div>
 <p   class="bts1"  value="Now Playing   Click to View"></p>
-<img   src="images/Video_start.png"    class="imgs1"  />
+</a>
+<img   src="images/Video_start.png"    class="imgs1"  />	
 </div>
-</div>	
-</a>	
 <div   class="ads">
 <h5>Ad Space</h5>
 </div>

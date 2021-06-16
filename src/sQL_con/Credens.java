@@ -6,7 +6,7 @@ public interface Credens {
 	
 		    //Development
 	
-          /*  static String   
+           /* static String   
                              userId="root", 
 					        password="7h8g2cc",    
 						   connectionUrl="jdbc:mariadb://localhost/walexfab_blog", 
