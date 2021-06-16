@@ -142,7 +142,7 @@ public class User_algorithm_check {
 		while (true) {	
 			x= (int)(Math.random()*(c));
 			 System.out.println(x+"  SHOOT");
-			if(x==0 && x<c)
+			if(x!=0 && x<c)
 				return x;
 		}
 		

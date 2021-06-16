@@ -83,12 +83,7 @@ background: #fff;
 display: none;
 }
 			
-.banner{
-height: 130px;
-width: 100%;
-background-color: #2499F2;
-}
-			
+		
 				
 		
 #banner1{
@@ -287,19 +282,6 @@ background: #fff;
 				
 
         
-.sw{
-font-size: 15px;
-color: #fff;
-font-family:  sans-serif;
-text-decoration: none;
-margin: 20px;
-background: #000;
-
-}
-
- .sw:hover{
-text-decoration: none;
- }
 	
 .relation{
 font-family: sans-serif;
@@ -590,15 +572,7 @@ height: 300px;
 						
 
 	
-.sw{
-font-size: 15px;
-color: #fff;
-font-family:  sans-serif;
-text-decoration: none;
-background: #000;
-margin: 3px;
- }
-					
+				
 					
 }
 </style>	
@@ -779,8 +753,6 @@ src="<%=url.concat(resultSet.getString(2))%>"
  </div>
  
  </form>
- 
  </div>  
-<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

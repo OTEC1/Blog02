@@ -245,6 +245,11 @@ margin-top:10px;
 box-shadow: 0px 20px 30px  rgba(0,0,0,0.2);
 }
 
+.write_up_display{
+width: 100%;
+padding: 18px;
+}
+
 .ad0{
 display: none;
 }

@@ -403,7 +403,7 @@ amzn_assoc_linkid = "a1a6b549764358906b74f64fc299e429";
 <%
 try{
 connection = new Connection_sql().getConnection();
-statement=connection.prepareStatement("select * from Music_path order by id desc limit 100 ");
+statement=connection.prepareStatement("select * from Music_path  where title like '%"+String.valueOf(request.getAttribute("msearch"))+"%'");
 resultSet = statement.executeQuery();
 while(resultSet.next()){
 %>
@@ -423,7 +423,7 @@ while(resultSet.next()){
 <label>Title:  <%=resultSet.getString(3)%></label>
 <br/>
 <label   class="call_action">
-Click to Listen  and Download
+Click to Listen  and Download 2
 </label>
 </div>
 </td>

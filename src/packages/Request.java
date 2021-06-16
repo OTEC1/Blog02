@@ -84,19 +84,21 @@ public class Request extends HttpServlet {
 		if(sz.trim().length()>0) {
 			List<navigation>  ls=new  ServerRequest().read_in_query(sz.toLowerCase(),string);
 		    	request.setAttribute("va",sz.toLowerCase());
-					  sz="";			  
+					 			  
 		  if(ls.size()>0) {
 			
-			if(string.equals("music"))
+			if(string.equals("music")) {
+				request.setAttribute("msearch", request.getParameter("data"));
 			       url= "/msearch.jsp";
+			}
 			else 
 			 if(string.equals("vid")) {
-				 request.setAttribute("seay", sz);
+				 request.setAttribute("seay", request.getParameter("data"));
 				   url= "vid_sea.jsp";
 			 }
 			else
 			 if(string.equals("index")) {
-				   request.setAttribute("sea", sz);
+				   request.setAttribute("sea", request.getParameter("data"));
 				   url= "/ESearch.jsp";
 			 }
 		 
@@ -110,7 +112,7 @@ public class Request extends HttpServlet {
 		
 		System.out.println(url);
 		 request.getRequestDispatcher(url).forward(request, response);
-			
+		 sz="";
 	
 	}
 	

@@ -149,7 +149,7 @@
 </div>
 <div class="logoSide">
 <div class="image">
-<img src="images/Group 1.png" alt="images/Group 1.png"/>
+<img src="images/Banner.png" alt="images/Banner.png"/>
 </div>
 </div>
 
