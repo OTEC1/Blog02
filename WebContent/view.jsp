@@ -346,7 +346,7 @@ Source: <%=resultSet.getString(8)%>
 </div>
 
 <div  class="write_up_display">
-<%=new Request().make(resultSet.getString(4))%>
+<%=new Request().make(resultSet.getString(4),2)%>
     
 </div>
 
@@ -388,7 +388,7 @@ while(resultSet.next()){
 <img alt="<%=resultSet.getString(2)%>" src="<%=url.concat(resultSet.getString(2))%>"  class="content_img"/>
 </a>
 <div class="content_expo">
-<%=new Request().make(resultSet.getString("writes"))%>
+<%=new Request().make(resultSet.getString("writes"),1)%>
 </div>
 <div class="read_more">Read more...  </div>
 </div>

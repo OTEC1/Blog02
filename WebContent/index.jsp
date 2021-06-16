@@ -168,10 +168,7 @@ while(resultSet.next()){
 				 
                 <p class="article-content">
                   <p   class="account-write"  style="overflow-y: hidden;"> 
-					<%String x=resultSet.getString(4);
-                      if(x.contains("#") | x.contains("@")){%>
-					   <%=x=x.replaceAll("#", "")%>
-					   <%} %> 
+					   <%=new Request().make(resultSet.getString(4),1)%>
 				  </p>
 				  <p class="account-read">
 				    <%=resultSet.getString(5)%>
@@ -325,7 +322,7 @@ while(resultSet.next()){
 				 
                 <p class="article-content">
                   <p   class="account-write"  style="overflow-y: hidden;"> 
-					<%=new Request().make(resultSet.getString(4))%> 
+					<%=new Request().make(resultSet.getString(4),1)%> 
 				  </p>
 				  <p class="account-read">
 				    <%=resultSet.getString(5)%>

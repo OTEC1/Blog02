@@ -117,11 +117,18 @@ public class Request extends HttpServlet {
 	}
 	
 	
-	public String make(String x) {
+	public String make(String x, int i) {
+		String a,b;
+		if(i == 1 ) {
+			a="";  b="";
+		}else {
+			a="</br/>"; b ="<br/><br/>";	
+		}
+		
 		if(x.contains("@"))
-		     x=x.replaceAll("@", "<br/>");
+		     x=x.replaceAll("@", a);
 		if(x.contains("#"))
-		    x=x.replaceAll("#", "<br/><br/>");
+		    x=x.replaceAll("#", b);
 		if(x.contains("’"))
 		    x=x.replaceAll("’", "&lsquo;");
 		if(x.contains("“"))
