@@ -406,11 +406,11 @@ Dealit Trending Video's Search
 	         .vems{
             	box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.3);  
 		        height: 150px; 
-		        width: 370px;
+		        width: 350px;
 		        background: #fff;
 		        margin: 10px;
 		        font-family: sans-serif;
-            	margin-left: 5px;
+            	
             }
             		
 	              .scrollbar{ 

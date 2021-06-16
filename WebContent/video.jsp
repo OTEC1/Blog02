@@ -41,13 +41,21 @@ height:auto;
 margin-left: auto;
 margin-right: auto;
 background: #fff;
-margin-top: -80px;
+
 }
 	
 .white{
 background: #FFF;
 }		 		
-		 				
+	
+button{
+border:none;
+margin: 10px;
+}	
+
+.sbtn{
+margin-top: -10px;
+}	 				
 #ad1{ 			   
 float: left;
 width: 12%;
@@ -84,20 +92,7 @@ display: none;
 }
 			
 		
-				
-		
-#banner1{
-height: auto;
-width: 90%;
-background: #fff;
-margin-left: auto;
-margin-right: auto;
-box-shadow: 0px 20px 30px rgba(0,0,0,0.2);
-border-radius: 0px 0px 0px 20px;
-float: right;
-padding: 5px;
-}
-				
+			
 #nnn{
 display:none;
 position:absolute;
@@ -352,12 +347,6 @@ height:auto;
 }
 
 
-#banner1{
-height: auto;
-width: 79%;
-border-radius: 0px 0px 0px 20px;
-}
-
 
 .lin{
 margin: 3px;
@@ -406,13 +395,7 @@ margin-top: -390px;
 .base{
 height: 890px;
 }
-	
-#banner1{
-height: auto;
-width: 100%;
-border-radius: 0px 0px 0px 0px;
-}
-	
+
 #ad1{
 display: none;
 }
@@ -545,11 +528,7 @@ display: none;
 }
 
 
-	
-#banner1{
-height:60px;
-border-radius: 0px 0px 0px 0px;
-}
+
 	
 #repeat{
 display: none;
