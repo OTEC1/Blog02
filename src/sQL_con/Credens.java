@@ -10,8 +10,8 @@ public interface Credens {
                              userId="root", 
 					        password="7h8g2cc",    
 						   connectionUrl="jdbc:mariadb://localhost/walexfab_blog", 
-				          ACCESS_KEY_ID="AKIAYDAUUBKQ5QPLZFMW", 
-  	 					 ACCESS_SEC_KEY="B6ypFp+oYKzlWlXl9CE/1xD3siRR9FNibKJ8+CIN",    
+				          ACCESS_KEY_ID="****************", 
+  	 					 ACCESS_SEC_KEY="*********************",    
 						bucket="bloggingbucket",
 				       driverName="org.mariadb.jdbc.Driver";
  		   */
@@ -24,8 +24,8 @@ public interface Credens {
 	 		         userId="walexfab_blogs", 
 	 				 password="vkw6432q1",
 	 	    		 connectionUrl="jdbc:mariadb://localhost/walexfab_blogs",
-			         ACCESS_KEY_ID="AKIAYDAUUBKQ5QPLZFMW", 
-		      	     ACCESS_SEC_KEY="B6ypFp+oYKzlWlXl9CE/1xD3siRR9FNibKJ8+CIN",  
+			         ACCESS_KEY_ID="******************", 
+		      	     ACCESS_SEC_KEY="*********************",  
 	 	             bucket="bloggingbucket", 
 	 	             driverName="org.mariadb.jdbc.Driver";
 		        
