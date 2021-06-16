@@ -74,7 +74,7 @@ margin-top: 100px;
 .left_wing{
 width:65%;
 float: left;
-height: 800px;
+height: 1000px;
 overflow-y: scroll;
 }
 
@@ -123,6 +123,8 @@ text-align:left;
 padding: 15px;
 height: auto;
 width: 80%;
+font-size: 18pt;
+
 
 }  
 
@@ -248,6 +250,7 @@ box-shadow: 0px 20px 30px  rgba(0,0,0,0.2);
 .write_up_display{
 width: 100%;
 padding: 18px;
+font-size: 15pt;
 }
 
 .ad0{
